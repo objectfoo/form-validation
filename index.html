@@ -1,0 +1,33 @@
+---
+layout: default
+title: Form Test
+---
+
+<div id="home">
+  <h2>A Form</h2>
+  <form action="#">
+    <p>
+      <label for="username">username: </label>
+      <input type="text" name="username">
+      <span class="error"></span>
+    </p>
+
+    <p>
+      <label for="password">password: </label>
+      <input type="password" name="password">
+      <span class="error"></span>
+    </p>
+
+    <p>
+      <label for="email">email: </label>
+      <input type="text" name="email">
+      <span class="error"></span>
+    </p>
+
+    <p>
+      <button type="submit">Submit</button>
+      <span class="warning">Missing required fields</span>
+      <span class="error"></span>
+    </p>
+  </form>
+</div>
