@@ -1,6 +1,17 @@
 var EventUtil = (function (window, document) {
   return {
+
+    getCharCode: function (event) {
+      if (typeof event.charCode == 'number') {
+        return event.charCode;
+      }
+      else {
+        return event.keyCode;
+      }
+    },
+
     addHandler: function (element, type, handler) {
+
       if (element.addEventListener) {
         element.addEventListener(type, handler, false);
       }
@@ -52,6 +63,5 @@ var EventUtil = (function (window, document) {
         event.cancelBubble = true;
       }
     }
-
   };
 })(window, window.document);
