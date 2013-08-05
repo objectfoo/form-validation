@@ -159,7 +159,8 @@ button {
   box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 }
 
-button:hover {
+button:hover,
+button:focus {
   background-image: -webkit-linear-gradient(limeGreen, forestGreen);
   background-image: linear-gradient(limeGreen, forestGreen);
   text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
