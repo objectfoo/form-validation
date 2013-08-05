@@ -1,3 +1,3 @@
-## Form validation experiment
+# Form validation experiment
 
-jekyll site wrappin a form validation experiment in a functional programming style.
+[jekyll](http://jekyllrb.com) site wrapping a form validation experiment in a functional programming style.
